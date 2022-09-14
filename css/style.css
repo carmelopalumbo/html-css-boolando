@@ -105,6 +105,10 @@ main .prod-block .product.no-eco .eco{
   display: none;
 }
 
+main .prod-block .product.no-sconto .eco{
+  left: 0;
+}
+
 main .prod-block .descr .marca{
   font-size: 10px;
 }
@@ -137,6 +141,7 @@ main .prod-block .product.no-sconto .sconto{
 main .prod-block .descr.no-sconto .old-price{
   display: none;
 }
+
 
 /* hover images */
 
