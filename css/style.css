@@ -21,6 +21,10 @@ body{
 header{
   background-color: #ff6900;
   height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top:0;
 }
 
 header .container{
@@ -47,6 +51,10 @@ header .container .text span:hover{
 }
 
 /* main */
+
+body{
+  margin-top: 60px;
+}
 
 main .prod-block{
   height: calc(100% / 3);
