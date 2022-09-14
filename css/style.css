@@ -10,6 +10,7 @@
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
+  min-width: 800px;
 }
 
 body{
@@ -20,12 +21,12 @@ body{
 
 header{
   background-color: #ff6900;
-  height: 60px;
   position: fixed;
   width: 100%;
   z-index: 2;
   top:0;
 }
+
 
 header .container{
   display: flex;
@@ -64,9 +65,20 @@ main .prod-block{
   margin: 20px 10px;
 }
 
-main .prod-block img{
-  height: 100%;
+main .prod-block .product img{
   width: 100%;
+}
+
+main .prod-block .product .img-hide{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+main .prod-block .product .img-hide:hover{
+  opacity: 0;
 }
 
 main .prod-block .product .cuore{
@@ -150,32 +162,6 @@ main .prod-block .descr.no-sconto .old-price{
   display: none;
 }
 
-
-/* hover images */
-
-main .prod-block #img1:hover{
-  content: url('../img/1b.webp');
-}
-
-main .prod-block #img2:hover{
-  content: url('../img/2b.webp');
-}
-
-main .prod-block #img3:hover{
-  content: url('../img/3b.webp');
-}
-
-main .prod-block #img4:hover{
-  content: url('../img/4b.webp');
-}
-
-main .prod-block #img5:hover{
-  content: url('../img/5b.webp');
-}
-
-main .prod-block #img6:hover{
-  content: url('../img/6b.webp');
-}
 
 /* footer */
 
