@@ -163,3 +163,43 @@ main .prod-block #img5:hover{
 main .prod-block #img6:hover{
   content: url('../img/6b.webp');
 }
+
+/* footer */
+
+footer{
+  background-color: #1a1a1a;
+  height: 90px;
+  margin-top: 20px;
+}
+
+footer .container{
+  padding-top: 25px;
+  color: white;
+  line-height: 25px;
+}
+
+footer .container .text p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer .container .text span{
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+footer .container .text span:hover{
+  text-decoration: underline;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .social p{
+  font-size: 13px;
+  font-weight: bold;
+}
