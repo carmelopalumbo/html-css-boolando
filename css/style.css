@@ -137,3 +137,29 @@ main .prod-block .product.no-sconto .sconto{
 main .prod-block .descr.no-sconto .old-price{
   display: none;
 }
+
+/* hover images */
+
+main .prod-block #img1:hover{
+  content: url('../img/1b.webp');
+}
+
+main .prod-block #img2:hover{
+  content: url('../img/2b.webp');
+}
+
+main .prod-block #img3:hover{
+  content: url('../img/3b.webp');
+}
+
+main .prod-block #img4:hover{
+  content: url('../img/4b.webp');
+}
+
+main .prod-block #img5:hover{
+  content: url('../img/5b.webp');
+}
+
+main .prod-block #img6:hover{
+  content: url('../img/6b.webp');
+}
