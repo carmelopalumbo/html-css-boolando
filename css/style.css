@@ -45,3 +45,95 @@ header .container .text span, .container .icons i{
 header .container .text span:hover{
   text-decoration: underline;
 }
+
+/* main */
+
+main .prod-block{
+  height: calc(100% / 3);
+  width: calc(100% / 3 - 40px);
+  position: relative;
+  display: inline-block;
+  margin: 30px 10px;
+}
+
+main .prod-block img{
+  height: 100%;
+  width: 100%;
+}
+
+main .prod-block .product .cuore{
+  cursor: pointer;
+  position: absolute;
+  width: 35px;
+  top: 5px;
+  right: 0;
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+main .prod-block .product .cuore:hover{
+  color: red;
+}
+
+main .prod-block .product .sconto{
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px;
+  width: 35px;
+  text-align: center;
+}
+
+main .prod-block .product .eco{
+  position: absolute;
+  bottom: 90px;
+  left: 37px;
+  background-color: green;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px;
+  width: 70px;
+}
+
+main .prod-block .product.no-eco .eco{
+  display: none;
+}
+
+main .prod-block .descr .marca{
+  font-size: 10px;
+}
+
+main .prod-block .descr .model{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main .prod-block .descr .price{
+  color: red;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+main .prod-block .descr .old-price{
+  text-decoration: line-through;
+  font-size: 11px;
+}
+
+main .prod-block .product.no-sconto .sconto{
+  display: none;
+}
+
+main .prod-block .product.no-sconto .sconto{
+  display: none;
+}
+
+main .prod-block .descr.no-sconto .old-price{
+  display: none;
+}
