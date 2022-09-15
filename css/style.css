@@ -77,8 +77,9 @@ main .prod-block .product .img-hide{
   height: auto;
 }
 
-main .prod-block .product .img-hide:hover{
-  opacity: 0;
+main .img-hide:hover{
+  /* opacity: 0; */
+  display: none;
 }
 
 main .prod-block .product .cuore{
